@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Template-03">
+    <link rel="stylesheet" href="../style/framework.css">
+    <link rel="stylesheet" href="../style/all.min.css">
+    <link rel="stylesheet" href="../style/normalization.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <title>Settings</title>
+</head>
+<body>
+    <div class="settings bg-eee flex">
+        <div class="side-bar bg-white padd-15">
+            <p class="padd-15">elzero</p>
+            <ul>
+                <li><a href="index.html"><i class="fa-regular fa-chart-bar fa-fw"></i><span>dashboard</span></a></li>
+                <li><a href="settings.html" class="active"><i
+                            class="fa-solid fa-gear fa-fw"></i><span>settings</span></a></li>
+                <li><a href="profile.html"><i class="fa-regular fa-user fa-fw"></i><span>profile</span></a></li>
+                <li><a href="projects.html"><i class="fa-solid fa-diagram-project fa-fw"></i><span>projects</span></a>
+                </li>
+                <li><a href="courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span>courses</span></a></li>
+                <li><a href="friends.html"><i class="fa-regular fa-circle-user fa-fw"></i><span>friends</span></a></li>
+                <li><a href="files.html"><i class="fa-regular fa-file fa-fw"></i><span>files</span></a></li>
+                <li><a href="plans.html"><i class="fa-regular fa-credit-card fa-fw"></i><span>plans</span></a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="header padd-15">
+                <div class="keywords">
+                    <input type="text" placeholder="type a keyword">
+                </div>
+                <div class="icons">
+                    <span class="ring-icon"><i class="fa-regular fa-bell fa-lg"></i></span>
+                    <img src="../images/man-01.png" alt="">
+                </div>
+            </div>
+            <div class="content padd-15">
+                <h1>settings</h1>
+                <div class="wraper-settings">
+                    <div class="box site-control padd-15">
+                        <h3 class="h3-box">site control</h3>
+                        <p class="p-box">control the website if there is maintenance</p>
+                        <div class="control flex-between">
+                            <div class="text">
+                                <h4 class="h4-box">website control</h4>
+                                <p class="p-box2">open/close the website & write the reason</p>
+                            </div>
+                            <label class="switch">
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                        <textarea name="msg" placeholder="close message content"></textarea>
+                    </div>
+                    <div class="box general-info padd-15">
+                        <h3 class="h3-box">general info</h3>
+                        <p class="p-box">general information about your account</p>
+                        <form class="information m-tb-15px">
+                            <div class="info">
+                                <label for="first-name">first name</label>
+                                <input type="name" name="name1" id="first-name" placeholder="first name">
+                            </div>
+                            <div class="info">
+                                <label for="second-name">second-name</label>
+                                <input type="text" name="name2" placeholder="second name" id="second-name">
+                            </div>
+                            <div class="info">
+                                <label for="mail">email</label>
+                                <div class="mail">
+                                    <input type="mail" name="mail" value="o@nn.sa" disabled>
+                                    <a href="#" class="btn-shape setting-btn">change</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="box security-info padd-15">
+                        <h3 class="h3-box">security info</h3>
+                        <p class="p-box">security information about your account</p>
+                        <div class="info">
+                            <div class="password security-part flex-between">
+                                <div class="text">
+                                    <h4 class="h4-box">password</h4>
+                                    <p class="p-box2">last change on 25/10/2021</p>
+                                </div>
+                                <a href="#" class="btn-shape setting-btn">change</a>
+                            </div>
+                            <div class="authentication security-part flex-between">
+                                <div class="text">
+                                    <h4 class="h4-box">two-factor authentication</h4>
+                                    <p class="p-box2">enable/disable the feature</p>
+                                </div>
+                                <label class="switch">
+                                    <input class="toggle-checkbox" type="checkbox">
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                            <div class="devices security-part flex-between">
+                                <div class="text">
+                                    <h4 class="h4-box">devices</h4>
+                                    <p class="p-box2">check the login devices list</p>
+                                </div>
+                                <a href="#" class="btn-shape setting-btn">devices</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box social-info padd-15">
+                        <h3 class="h3-box">social info</h3>
+                        <p class="p-box">social media information</p>
+                        <ul class="m-tb-15px">
+                            <li>
+                                <i class="fa-brands fa-github fa-fw"></i>
+                                <input type="text" name="un3" placeholder="Username">
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-x-twitter fa-fw"></i>
+                                <input type="text" name="un1" placeholder="Username">
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-facebook-f fa-fw"></i>
+                                <input type="text" name="un2" placeholder="Username">
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-linkedin fa-fw"></i>
+                                <input type="text" name="un" placeholder="Username">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box widgets-control padd-15">
+                        <h3 class="h3-box">widgets control</h3>
+                        <p class="p-box">show/hide widgets</p>
+                        <div class="choices m-tb-15px">
+                            <div class="choice">
+                                <input type="checkbox" checked name="widget" id="widget1">
+                                <label for="widget1">quick draft</label>
+                            </div>
+                            <div class="choice">
+                                <input type="checkbox" name="widget" id="widget2">
+                                <label for="widget2">yearly targets</label>
+                            </div>
+                            <div class="choice">
+                                <input type="checkbox" checked name="widget" id="widget3">
+                                <label for="widget3">tickets statistics</label>
+                            </div>
+                            <div class="choice">
+                                <input type="checkbox" checked name="widget" id="widget4">
+                                <label for="widget4">latest news</label>
+                            </div>
+                            <div class="choice">
+                                <input type="checkbox" name="widget" id="widget5">
+                                <label for="widget5">latest tasks</label>
+                            </div>
+                            <div class="choice">
+                                <input type="checkbox" name="widget" id="widget6">
+                                <label for="widget6">top search items</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box backup-manager padd-15">
+                        <h3 class="h3-box">backup manager</h3>
+                        <p class="p-box">control backup time and location</p>
+                        <div class="choices m-tb-15px">
+                            <div class="choice">
+                                <input type="radio" name="backup" id="daily">
+                                <label for="daily">daily</label>
+                            </div>
+                            <div class="choice">
+                                <input type="radio" checked name="backup" id="weekly">
+                                <label for="weekly">weekly</label>
+                            </div>
+                            <div class="choice">
+                                <input type="radio" name="backup" id="monthly">
+                                <label for="monthly">monthly</label>
+                            </div>
+                        </div>
+                        <div class="servers">
+                            <label>
+                                <input type="radio" name="server">
+                                <div class="server">
+                                    <i class="fa-solid fa-server d-block fa-fw"></i>
+                                    megaman
+                                </div>
+                            </label>
+                            <label>
+                                <input type="radio" name="server" checked>
+                                <div class="server">
+                                    <i class="fa-solid fa-server d-block fa-fw"></i>
+                                    zero
+                                </div>
+                            </label>
+                            <label>
+                                <input type="radio" name="server">
+                                <div class="server">
+                                    <i class="fa-solid fa-server d-block fa-fw"></i>
+                                    sigma
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
